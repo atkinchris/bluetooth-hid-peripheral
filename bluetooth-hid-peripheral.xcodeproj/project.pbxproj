@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83282A4420D0602B007B4D4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83282A4320D0602B007B4D4D /* Constants.swift */; };
 		83817B9E20CDA7320099EA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83817B9D20CDA7320099EA93 /* AppDelegate.swift */; };
 		83817BA020CDA7320099EA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83817B9F20CDA7320099EA93 /* ViewController.swift */; };
 		83817BA220CDA7320099EA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83817BA120CDA7320099EA93 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		83282A4220D05965007B4D4D /* bluetooth-hid-peripheral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bluetooth-hid-peripheral.entitlements"; sourceTree = "<group>"; };
+		83282A4320D0602B007B4D4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		83817B9A20CDA7320099EA93 /* bluetooth-hid-peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluetooth-hid-peripheral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83817B9D20CDA7320099EA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83817B9F20CDA7320099EA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				83817BA320CDA7330099EA93 /* Main.storyboard */,
 				83817BA620CDA7330099EA93 /* Info.plist */,
 				83817BA720CDA7330099EA93 /* bluetooth_hid_peripheral.entitlements */,
+				83282A4320D0602B007B4D4D /* Constants.swift */,
 			);
 			path = "bluetooth-hid-peripheral";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				83817BA020CDA7320099EA93 /* ViewController.swift in Sources */,
 				83817B9E20CDA7320099EA93 /* AppDelegate.swift in Sources */,
+				83282A4420D0602B007B4D4D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
