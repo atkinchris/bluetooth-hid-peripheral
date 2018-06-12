@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83282A4220D05965007B4D4D /* bluetooth-hid-peripheral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bluetooth-hid-peripheral.entitlements"; sourceTree = "<group>"; };
 		83817B9A20CDA7320099EA93 /* bluetooth-hid-peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluetooth-hid-peripheral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83817B9D20CDA7320099EA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83817B9F20CDA7320099EA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		83817B9C20CDA7320099EA93 /* bluetooth-hid-peripheral */ = {
 			isa = PBXGroup;
 			children = (
+				83282A4220D05965007B4D4D /* bluetooth-hid-peripheral.entitlements */,
 				83817B9D20CDA7320099EA93 /* AppDelegate.swift */,
 				83817B9F20CDA7320099EA93 /* ViewController.swift */,
 				83817BA120CDA7320099EA93 /* Assets.xcassets */,
@@ -95,6 +97,11 @@
 				TargetAttributes = {
 					83817B9920CDA7320099EA93 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -269,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "bluetooth-hid-peripheral/bluetooth_hid_peripheral.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "bluetooth-hid-peripheral/bluetooth-hid-peripheral.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S4LCRR7692;
@@ -288,7 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "bluetooth-hid-peripheral/bluetooth_hid_peripheral.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "bluetooth-hid-peripheral/bluetooth-hid-peripheral.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S4LCRR7692;
